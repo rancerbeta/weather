@@ -1,23 +1,31 @@
 # Install Instructions
 Install libraries
+
 Make sure pipenv is installed
 `pip install pipenv`
+
 Install packages using pipenv
 `pipenv install`
+
 From project root, Install App
 `pip install --editable .`
+
 Create database. From MySQL CLI
 `create database weather;`
 
 # Run App Instructions
 Activate your environment
 `pipenv shell`
+
 Set FLASK_APP env
 `export FLASK_APP='run_app:app`
+
 Initialize Database
 `flask initdb`
+
 Load included sqltables into MySQL. If you get file not found, make sure you are running from the project root
 `flask loaddb`
+
 Run Flask
 `flask run`
 
