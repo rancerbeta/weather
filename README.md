@@ -43,4 +43,5 @@ You can reach it at localhost:5000 after you have flask running
 The response will look like the example.json file in the repo
 
 # Run Tests
-After install, run py.test on tests
+After install, run py.test on the tests directory
+`py.test tests`
