@@ -7,9 +7,6 @@ from weather.models import DailyWeatherStationTS, WeatherStation
 from weather.views.city import convert_f_to_c
 
 
-ONE_DAY = 86400
-
-
 class TestWeatherStationStories(object):
     def setup_method(self):
         """Create application and add some objects"""
