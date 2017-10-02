@@ -7,11 +7,11 @@ Make sure pipenv is installed
 Install packages using pipenv
 `pipenv install`
 
-From project root, Install App
-`pip install --editable .`
-
 Create database. From MySQL CLI
 `create database weather;`
+
+from project root, Install app after entering the environment
+`pipenv shell; pip install --editable .`
 
 # Run App Instructions
 Activate your environment
